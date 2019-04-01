@@ -6,9 +6,12 @@
 **Raspberry pi**
 
 Differently used versions of raspberry pi are R-pi zero,
-raspberry pi 3+,raspberry pi 3B+ which is the presently used
+raspberry pi 3+,raspberry pi 3B+ which is the presently used.
+
 It has a broadcom microcontroller which is a ARM based processor i.e. ARM Cortex A7 the latest one.
+
 ARM is a company which designs the chip but doesn't manufacture.
+
 It has 40 input output pins, 4 USB ports(one for the power i.e to charge).
 It has an audio port,camera connector,HDMI (a mutlimedia interface between board and monitor) for monitor.
 It has a micro SD slot which is seen on the backside of the board
@@ -40,9 +43,13 @@ the major difference between between arduino and R-pi.
 
 **Benifits of Operating system**
 R-pi gives a user interface which is not the case with arduino.
+
 We can interact and make changes without writing code everytime to carryout an operation.
+
 Text user and graphic user interface are the 2 types.
+
 In text interface after the prompt on the screen we just have to write our commands for the desired output.
+
 And there are device drivers which act as translator between hardware device and operating system that use it.
 
 **Overclocking**
