@@ -82,8 +82,11 @@ mv-move
 **File permissions**
 
 R,W,X-read ,write ,execute
+
 Permissions for user refers to owner
+
 group refers to group of people
+
 others refers to everyone else
 
 ***Graphical user interface***
