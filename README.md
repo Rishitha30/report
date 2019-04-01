@@ -54,29 +54,45 @@ Overclocking is the process of increasing the clock frequency i.e time taken to 
 
 ***Text user interface***
 Shell-It reads the user input and displays on the screen.
+
 BASH-default shell for Raspian.
+
 man pwd gives the information about a command like how to use it.
+
 Linux filesystem is a hierarchy of directories(it simply means folder).
 
 **Commands**
 
 pwd-current directory location
+
 cd-change directory
+
 Ls-contents of the directory
+
 ls-l -details about all the directories under a current directory
+
 mkdir-creates a directory
+
 rmdir-removes a directory
+
 sudo-root permission to a command
+
 ps-gives all the processes being performed
+
 kill-kills the process
+
 shutdown
 
 **Creating and accesing a file**
 
-Using text editor and nano
+Using text editor and nano helps to access a file
+
 cat-to print contents in file
+
 head,body-to print the first and last 10 lines of the file
+
 cp-copy(takes 2 arguments)
+
 mv-move
 
 **File permissions**
