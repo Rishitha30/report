@@ -147,12 +147,30 @@ GPIO.output(pin_number,true/false)
 GPIO.input(pin_number)
 
 Creating an object for generating a square wave
+
 pwm_obj=GPIO.PWM(pin_number,frequency)
 
 pwm_obj.start(duty_cycle)
+
 the signal remains low or high from 0 to that argument depending on duty cycle.
 
-To change the duty cycle pwm_obj.ChangeDutyCycle(argument)
+To change the duty cycle 
+
+pwm_obj.ChangeDutyCycle(argument)
+
+**Using GUI interface**
+
+All the classes have to be imported from Tkinter library.
+
+from Tkinter import *
+
+An object of Tk() function should be created.
+
+Then ceate a canvas and any desired shapes can be drawn.
+
+
+
+
 
    
 
