@@ -115,3 +115,43 @@ others refers to everyone else
 ***Graphical user interface***
 
 startx-to start the GUI window system
+
+***General purpose input output pins***
+On the R-pi board it has 
+several input output pins for general purposes or they can be multifunctional 
+Ex: UART_(TX)/(RX)D 
+It has several ground pins,two 3.3V pins and two 5V pins
+Pins 3(SDL) and 5(SCL) used for I2C communication
+
+SPI i.e. Serial Parallel Interface is also communication protocol which requires 4 pins atleast
+
+MOSI-Master Out Slave In(pin 19)
+MISO-Master In Slave Out(pin 21)
+2 chip enabled pins to indicate the slave that master is communicating with it (ins 24 and 26)
+
+**Accessing GPIO pins using python**
+
+Import the GPIO library i.e. Rpi.GPIO.
+To use the pin number in program it can be done in 2 ways:
+1. Numbering according to the pin number on board.
+   GPIO.BOARD
+2. Using Broadcom SoC .(SoC-System on chip)
+   GPIO.BCM
+   Numbers assigned based on the number in pin name
+   
+GPIO.setup(pin_number,GPIO.IN/OUT)
+GPIO.output(pin_number,true/false)
+GPIO.input(pin_number)
+
+Creating an object for generating a square wave
+pwm_obj=GPIO.PWM(pin_number,frequency)
+
+pwm_obj.start(duty_cycle)
+the signal remains low or high from 0 to that argument depending on duty cycle.
+
+To change the duty cycle pwm_obj.ChangeDutyCycle(argument)
+
+   
+
+
+
