@@ -135,12 +135,15 @@ Import the GPIO library i.e. Rpi.GPIO.
 To use the pin number in program it can be done in 2 ways:
 1. Numbering according to the pin number on board.
    GPIO.BOARD
+   
 2. Using Broadcom SoC .(SoC-System on chip)
    GPIO.BCM
    Numbers assigned based on the number in pin name
    
 GPIO.setup(pin_number,GPIO.IN/OUT)
+
 GPIO.output(pin_number,true/false)
+
 GPIO.input(pin_number)
 
 Creating an object for generating a square wave
